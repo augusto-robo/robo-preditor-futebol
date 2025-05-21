@@ -1,6 +1,11 @@
 
 import streamlit as st
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
+
 from previsor import prever_resultado
+
 
 st.title("🔮 Robô Preditor de Futebol")
 
